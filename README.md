@@ -12,6 +12,7 @@
     - Filter for news category
     - Loader during service call
     - Share option for which key was there in response
+    - Would have made UI look better
 
 Things Left
 
