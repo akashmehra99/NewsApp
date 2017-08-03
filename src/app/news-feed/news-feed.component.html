@@ -1,0 +1,13 @@
+<masonry [options]="{ transitionDuration: '0.8s' }" [useImagesLoaded]="true">
+  <masonry-brick class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" *ngFor="let items of fetchedData;let i = index">
+    <div class="box-news">
+      <a target="_blank" href="https://rio.quintype.io/{{items.slug}}">              
+        <div class="health-fitness">{{items.sections[0].name}}</div>
+        <img src="http://quintype-01.imgix.net/{{items['hero-image-s3-key']}}" class="img-size" 
+        height="{{items['hero-image-metadata']['height']}}" width="{{items['hero-image-metadata']['width']}}">
+        <div class="news-heading">{{items.headline}}</div>
+      </a>      
+      <div class="author">{{items['author-name']}}</div> 
+    </div>    
+  </masonry-brick>
+</masonry>

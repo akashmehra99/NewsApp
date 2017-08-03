@@ -1,0 +1,100 @@
+@media only screen and (min-width:500px) and (max-width: 1200px) {
+    .page-layout{
+        padding : 0; 
+    }
+    .img-size{
+        width : 100%!important;
+        height : 40%!important;
+    }
+    .news-heading{
+        font-size: 20px;
+        line-height: 1.1;
+        text-align: left;
+        color: #222222;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 3px;
+        font-weight: bold; 
+    }
+    .health-fitness {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+        text-align: left;
+        color: #000000;
+        text-decoration: underline;
+        padding-bottom: 6px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .img-size{
+        width : 100%!important;
+        height : 20%!important;
+    }
+    .page-layout{
+        padding : 0; 
+    }
+    .news-heading{
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: left;
+        color: #222222;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 4px;
+        font-weight: bold;
+    }
+    .health-fitness {
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+        text-align: left;
+        color: #000000;
+        text-decoration: underline;
+        padding-bottom: 8px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .page-layout {
+        margin : 0 15% 0 15%;
+        box-shadow: 1px 1px 5px #888888;          
+    }
+    .img-size{
+        width : 100%!important;
+        height : 40%!important;
+    }
+    .news-heading{
+        font-size: 22px;
+        line-height: 1.36;
+        text-align: left;
+        color: #222222;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        font-weight: bold;
+    }
+    .health-fitness {
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+        text-align: left;
+        color: #000000;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+}
+.box-news{
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.author{
+    padding: 4px;
+    font-family: Lato;
+    font-size: 14px;
+    text-align: left;
+    color: #818181;
+}
+
