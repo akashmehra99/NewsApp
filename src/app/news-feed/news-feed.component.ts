@@ -59,6 +59,5 @@ export class NewsFeedComponent implements OnInit {
     for(let x in parsedData.stories){
       this.fetchedData.push(parsedData.stories[x]);
     }
-    console.log(this.fetchedData);
   }
 }
